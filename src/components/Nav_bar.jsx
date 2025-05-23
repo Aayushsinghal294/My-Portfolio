@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 
 import { navLinks } from "../constants";
 
-const NavBar = () => {
+const Navbar = () => {
   // track if the user has scrolled down the page
   const [scrolled, setScrolled] = useState(false);
 
@@ -52,4 +52,4 @@ const NavBar = () => {
   );
 }
 
-export default NavBar;
+export default Navbar;
