@@ -29,10 +29,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 20, suffix: "+", label: "Completed Projects" },
+  { value: 400, suffix: "+", label: "Questions across all platforms" },
+  { value: 1600, suffix: "+", label: "Rating on CodeChef" },
+  { value: 1200, suffix: "+", label: "Rating on CodeForces" },
 ];
 
 const logoIconsList = [
@@ -74,13 +74,13 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+   title: "Full-Stack Expertise",
+    desc: "Building scalable, responsive apps using Modern Technologies to solve real-world problems.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Problem Solver",
+    desc: "Crafting impactful solutions in healthtech, edtech, and AI, with 400+ problems solved across platforms.",
   },
   {
     imgPath: "/images/time.png",
@@ -120,7 +120,7 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "AI Integration",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
@@ -147,121 +147,138 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
-    title: "Frontend Developer",
-    date: "January 2023 - Present",
+    review:
+      "Aayush delivered an exceptional cab booking platform for us, improving both speed and user experience. His responsiveness and attention to our needs were top-notch.",
+    imgPath: "/images/exp4.png",
+    logoPath: "/images/logo4.png",
+    title: "Freelance Developer – Naksh Cab Service",
+    date: "May 2024 - June 2024",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
-      "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-      "Optimized web applications for maximum speed and scalability.",
+      "Built a React-based cab booking platform, improving booking efficiency by 40%.",
+      "Optimized UI/UX to reduce bounce rate by 25%, enhancing customer engagement.",
+      "Deployed and fine-tuned performance for 2x faster loading times.",
+      "Maintained continuous client communication, achieving 95% satisfaction.",
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
-    logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    review:
+      "HealthBuddy is transforming how patients access care. Aayush led the tech behind it, delivering complex features with real-time precision and clean UI.",
+    imgPath: "/images/logo5.png",
+    logoPath: "/images/logo5.png",
+    title: "Lead Developer – HealthBuddy",
+    date: "October 2024 – Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Developed a full-stack health app using React, Node.js, MongoDB, and Firebase.",
+      "Integrated telemedicine with WebRTC and real-time hospital queue tracking.",
+      "Reduced patient wait times by 40% via live updates and optimization logic.",
+      "Added Google Maps integration for dynamic hospital suggestions.",
     ],
   },
-  {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
-    logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+{
+  review:
+    "Cirqle is a standout chat platform with sleek UI and powerful real-time messaging. Aayush built it with precision and clean code — it's fast, modern, and user-friendly.",
+  imgPath: "/images/exp6.png",
+  logoPath: "/images/logo6.png",
+  title: "Full Stack Developer – Cirqle",
+  date: "January 2025 – Present ",
+  responsibilities: [
+    "Developed a real-time chat application using React, Node.js and Socket.io.",
+    "Implemented direct messaging, group chats, typing indicators, and message read receipts.",
+    "Used Socket.io SDK for scalable, secure, and low-latency communication.",
+    "Designed a responsive, modern UI optimized for both mobile and desktop users.",
+  ],
+}
+
 ];
 
 const expLogos = [
   {
-    name: "logo1",
-    imgPath: "/images/logo1.png",
+    name: "logo4",
+    imgPath: "/images/logo4.png",
   },
   {
-    name: "logo2",
-    imgPath: "/images/logo2.png",
+    name: "logo5",
+    imgPath: "/images/logo5.png",
   },
   {
-    name: "logo3",
-    imgPath: "/images/logo3.png",
+    name: "logo6",
+    imgPath: "/images/logo6.png",
   },
 ];
 
-const testimonials = [
+
+  const testimonials = [
   {
-    name: "Esther Howard",
-    mentions: "@estherhoward",
+    name: "Rohit Sharma",
+    mentions: "@rohit.codes",
     review:
-      "I can’t say enough good things about Adrian. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "Aayush is someone I’ve seen consistently build good projects. Cirqle was impressive — smooth UI and solid real-time chat using Stream.",
     imgPath: "/images/client1.png",
   },
   {
-    name: "Wade Warren",
-    mentions: "@wadewarren",
+    name: "Neha Verma",
+    mentions: "@neha.dev",
     review:
-      "Working with Adrian was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
-    imgPath: "/images/client3.png",
-  },
-  {
-    name: "Guy Hawkins",
-    mentions: "@guyhawkins",
-    review:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "He’s dependable in group projects. Communicates well, divides tasks clearly, and gets things done on time. Very easy to work with.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Marvin McKinney",
-    mentions: "@marvinmckinney",
+    name: "Varun Desai",
+    mentions: "@varun.js",
     review:
-      "Adrian was a pleasure to work with. He turned our outdated website into a fresh, intuitive platform that’s both modern and easy to navigate. Fantastic work overall.",
-    imgPath: "/images/client5.png",
+      "Aayush has a good grip on DSA. We’ve solved problems together for contests — he thinks clearly and doesn’t panic under pressure.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Floyd Miles",
-    mentions: "@floydmiles",
+    name: "Priya Singh",
+    mentions: "@priyacodes",
     review:
-      "Adrian’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional!",
+      "HealthBuddy was a cool project — especially the hospital queue part. He explained his logic well and the implementation was clean.",
     imgPath: "/images/client4.png",
   },
   {
-    name: "Albert Flores",
-    mentions: "@albertflores",
+    name: "Rajat Mehra",
+    mentions: "@rajatcp",
     review:
-      "Adrian was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "He’s consistent with both projects and practice. Whether it’s Leetcode problems or full-stack apps, Aayush handles things calmly.",
+    imgPath: "/images/client5.png",
+  },
+  {
+    name: "Sneha Kapoor",
+    mentions: "@sneha.codes",
+    review:
+      "Very helpful guy. He’s shared a bunch of resources with me — whether it’s Git stuff or React tricks, Aayush is always open to helping.",
     imgPath: "/images/client6.png",
   },
 ];
 
+
+
 const socialImgs = [
   {
-    name: "insta",
-    imgPath: "/images/insta.png",
+    name: "website",
+    imgPath: "/images/website.png",
+    link: "https://aayushsinghal.dev", 
   },
   {
-    name: "fb",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/images/x.png",
+    name: "github",
+    imgPath: "/images/github.png",
+    link: "https://github.com/Aayushsinghal294",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    link: "https://www.linkedin.com/in/aayush-singhal-772295271/",
+  },
+  {
+    name: "resume",
+    imgPath: "/images/resume.png",
+    link: "https://drive.google.com/file/d/1TZVq3-90pjmD2s-Mm3uVUnAArP2rrPHW/view", 
   },
 ];
+
+ 
+
 
 export {
   words,

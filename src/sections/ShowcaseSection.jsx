@@ -12,14 +12,12 @@ const AppShowcase = () => {
   const ycDirectoryRef = useRef(null);
 
   useGSAP(() => {
-    // Animation for the main section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Animations for each app showcase
     const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
 
     cards.forEach((card, index) => {
@@ -49,15 +47,17 @@ const AppShowcase = () => {
         <div className="showcaselayout">
           <div ref={rydeRef} className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/project1.png" alt="Ryde App Interface" />
+              <a href="https://github.com/Aayushsinghal294/Doc1" target="_blank" rel="noopener noreferrer">
+                <img src="/images/project6.png" alt="Ryde App Interface" />
+              </a>
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+                HeathBuddy - Reducing patient queue times
+                and optimizing bed availability with real-time updates.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with React, Google API & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -65,20 +65,24 @@ const AppShowcase = () => {
 
           <div className="project-list-wrapper overflow-hidden">
             <div className="project" ref={libraryRef}>
-              <div className="image-wrapper bg-[#FFEFDB]">
-                <img
-                  src="/images/project2.png"
-                  alt="Library Management Platform"
-                />
+              <div className="image-wrapper bg-[#000000]">
+                <a href="https://cirqle-ochre.vercel.app" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="/images/project4.png"
+                    alt="Library Management Platform"
+                  />
+                </a>
               </div>
-              <h2>The Library Management Platform</h2>
+              <h2>Cirqle - End to End Messaging App</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
-              <div className="image-wrapper bg-[#FFE7EB]">
-                <img src="/images/project3.png" alt="YC Directory App" />
+              <div className="image-wrapper bg-[#000000]">
+                <a href="https://samvaad-video-call.vercel.app/" target="_blank" rel="noopener noreferrer">
+                  <img src="/images/project5.png" alt="YC Directory App" />
+                </a>
               </div>
-              <h2>YC Directory - A Startup Showcase App</h2>
+              <h2>Samvaad - A Feature rich video conferencing App</h2>
             </div>
           </div>
         </div>
