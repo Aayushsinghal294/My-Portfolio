@@ -258,7 +258,7 @@ const socialImgs = [
   {
     name: "website",
     imgPath: "/images/website.png",
-    link: "https://aayushsinghal.dev", 
+    link: "https://aayushsinghal-portfolio.vercel.app/", 
   },
   {
     name: "github",
