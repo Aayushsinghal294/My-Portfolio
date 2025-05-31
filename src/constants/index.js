@@ -273,7 +273,7 @@ const socialImgs = [
   {
     name: "resume",
     imgPath: "/images/resume.png",
-    link: "https://drive.google.com/file/d/1TZVq3-90pjmD2s-Mm3uVUnAArP2rrPHW/view", 
+    link: "https://drive.google.com/file/d/1uNcKFh-mC3yBVbH8CNbJW8__sHpB1qwI/view?usp=sharing", 
   },
 ];
 
