@@ -57,7 +57,7 @@ const AppShowcase = () => {
                 and optimizing bed availability with real-time updates.
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React, Google API & TailwindCSS for a fast,
+                An app built with React, Google Maps API & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
