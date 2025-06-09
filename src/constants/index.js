@@ -160,34 +160,7 @@ const expCards = [
       "Maintained continuous client communication, achieving 95% satisfaction.",
     ],
   },
-  {
-    review:
-      "HealthBuddy is transforming how patients access care. Aayush led the tech behind it, delivering complex features with real-time precision and clean UI.",
-    imgPath: "/images/logo5.png",
-    logoPath: "/images/logo5.png",
-    title: "Lead Developer – HealthBuddy",
-    date: "October 2024 – Present",
-    responsibilities: [
-      "Developed a full-stack health app using React, Node.js, MongoDB, and Firebase.",
-      "Integrated telemedicine with WebRTC and real-time hospital queue tracking.",
-      "Reduced patient wait times by 40% via live updates and optimization logic.",
-      "Added Google Maps integration for dynamic hospital suggestions.",
-    ],
-  },
-{
-  review:
-    "Cirqle is a standout chat platform with sleek UI and powerful real-time messaging. Aayush built it with precision and clean code — it's fast, modern, and user-friendly.",
-  imgPath: "/images/exp6.png",
-  logoPath: "/images/logo6.png",
-  title: "Full Stack Developer – Cirqle",
-  date: "January 2025 – Present ",
-  responsibilities: [
-    "Developed a real-time chat application using React, Node.js and Socket.io.",
-    "Implemented direct messaging, group chats, typing indicators, and message read receipts.",
-    "Used Socket.io SDK for scalable, secure, and low-latency communication.",
-    "Designed a responsive, modern UI optimized for both mobile and desktop users.",
-  ],
-}
+  
 
 ];
 
